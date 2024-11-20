@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+    <id>teapplix</id>
+    <type>extension</type>
+	<version>1.0.0</version>
+	<package_content>
+		<extensions>
+			<extension>teapplix</extension>
+		</extensions>
+	</package_content>
+</package>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_home</key>
+		<value><![CDATA[Home]]></value>
+	</definition>
+	<definition>
+		<key>teapplix_name</key>
+		<value><![CDATA[Teapplix]]></value>
+	</definition>
+	<definition>
+		<key>text_teapplix_send</key>
+		<value><![CDATA[Send]]></value>
+	</definition>
+	<definition>
+		<key>text_teapplix_receive</key>
+		<value><![CDATA[Receive]]></value>
+	</definition>
+
+</definitions>

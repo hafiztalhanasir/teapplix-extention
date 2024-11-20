@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<extension>
+    <id>teapplix</id>
+    <version>1.4.0</version>
+	<type>extensions</type>
+	<category>Order Notification</category>
+    <cartversions>
+	    <item>1.4.0</item>
+   </cartversions>
+    <priority>10</priority>
+    <note>true</note>
+    <settings>
+        <item id="teapplix_api_key">
+            <type required="true">input</type>
+            <default_value></default_value>
+        </item>
+        <item id="teapplix_api_url">
+            <type required="true">input</type>
+            <default_value>https://api.teapplix.com/api2</default_value>
+        </item>
+    </settings>
+    <install>
+	    <trigger>install.php</trigger>
+	</install>
+	<uninstall>
+	    <trigger>uninstall.php</trigger>
+	</uninstall>
+</extension>
